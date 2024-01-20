@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+header button{
+    width: 160px;
+    height: 30px;
+    background-color: #CD313E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+ul {
+    list-style: none; 
+    margin: 0;
+}
+
+ul li {
+    display: inline; 
+    margin: 0 10px;  /*margem entre os itens da lista*/
+    color: #CD313E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    
+}
+
+.content {
+    padding-top: 140px;
+    padding-bottom: 440px;
+    margin-bottom: 100px;
+    background: url('assets/Prancheta\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-origin: border-box;
+}
+.content div {
+    width: 540px;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.content div span {
+    color: #D44D51;
+    
+}
+
+.content-container{
+    margin-top: 120px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+p{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.botao1 {
+    width: 190px;
+    height: 36px;
+    background-color: #CD313E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    line-height: 5px;
+    
+}
+
+.botao2 {
+    width: 190px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    border: solid black 2px;
+    background-color: transparent;
+      
+}
+
+a{
+    text-decoration: none;
+    color: #CD313E;
+}
+
+.botao2 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Footer */
+
+
+footer{
+    background-color: #F78282;
+    height: 25vh;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-left: 160px;
+    
+}
+
+.company{
+    margin-top: 40px;
+}
+.footer-button {
+    width: 140px;
+    height: 25px;
+    background-color: #CD313E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+hr{
+    border: 1px solid white;
+    border-top: 1px solid white;
+    margin: 20px 0;
+    margin-right: 155px;
+    margin-left: 155px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin-right: 145px;
+    margin-left: 145px;
+}
+
+.footer-nav li{
+    color: white;
+    
+}
+
+.nav-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} 
