@@ -5,3 +5,4 @@ Vocês fazem parte de um time de desenvolvimento, e estão trabalhando em um pro
 Sua tarefa é realizar os ajustes e melhorias necessárias baseado no Layout disponibilizado, aproveite para realizar refatorações necessárias e qualquer correção que precisa ser feita.
 
 
+# landing-page-errors
